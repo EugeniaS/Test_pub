@@ -1,0 +1,41 @@
+<!doctype html>
+
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+
+  <title>Bugs</title>
+</head>
+
+<body>
+Описание: <input type="text" id="defect_description">
+
+<select id="defect_type">
+<option value="defect">Неисправность</option>
+<option value="enhancement">Замечание</option>
+</select>
+
+<select id="defect_priority">
+<option value="high">Высокий</option>
+<option value="medium">Средний</option>
+<option value="low">Низкий</option>
+</select>
+
+<select id="defect_state">
+<option value="open">Открыт</option>
+<option value="fixed">Исправлено</option>
+<option value="closed">Закрыт</option>
+</select>
+
+<select id="defect_owner">
+<option value="customer">Заказчик</option>
+<option value="our">Мы</option>
+</select>
+
+<button id="addRow">Добавить дефект</button>
+<button id="save">Сохранить изменения</button>
+
+
+  <script src="bugs.js"></script>
+</body>
+</html>
